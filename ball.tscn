@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://civmu6hy0k8c"]
+
+[ext_resource type="Texture2D" uid="uid://3k1rbdtpq0q5" path="res://arts/Ball.png" id="1_upguj"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_an1cn"]
+radius = 15.0333
+
+[node name="Ball" type="RigidBody2D"]
+position = Vector2(382, 123)
+gravity_scale = 0.0
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_upguj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_an1cn")
