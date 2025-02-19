@@ -7,6 +7,8 @@ radius = 15.0333
 
 [node name="Ball" type="RigidBody2D"]
 position = Vector2(382, 123)
+collision_layer = 2
+collision_mask = 5
 gravity_scale = 0.0
 metadata/_edit_group_ = true
 

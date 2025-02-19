@@ -9,6 +9,7 @@ size = Vector2(16, 119)
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(574, 616)
 rotation = 1.5708
+collision_mask = 2
 script = ExtResource("1_2mcpt")
 metadata/_edit_group_ = true
 
